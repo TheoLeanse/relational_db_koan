@@ -8,3 +8,4 @@ require './models/event'
 
 DataMapper.finalize
 
+DataMapper.auto_migrate!
