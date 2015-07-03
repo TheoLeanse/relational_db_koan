@@ -8,7 +8,7 @@ describe Calendar do
     calendar.events << event
     calendar.save
     calendar = Calendar.first
-    expect(calendar.events).to_include event
+    expect(calendar.events).to include event
   end
 
 end
